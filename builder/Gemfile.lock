@@ -7,9 +7,13 @@ GEM
     ffi (1.0.9)
     linecache19 (0.5.12)
       ruby_core_source (>= 0.1.4)
-    nokogiri (1.5.0)
+    mini_portile2 (2.6.1)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
     pygments.rb (0.2.3)
       rubypython (>= 0.5.1)
+    racc (1.5.2)
     ruby-debug-base19 (0.11.25)
       columnize (>= 0.3.1)
       linecache19 (>= 0.5.11)
@@ -28,6 +32,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri
+  nokogiri (>= 1.12.5)
   pygments.rb
   ruby-debug19
+
+BUNDLED WITH
+   2.1.4
